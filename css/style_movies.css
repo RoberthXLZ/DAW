@@ -1,0 +1,80 @@
+div{
+	height: 400px;
+	margin: 30px;
+	border-bottom-style:dotted;
+  	border-width: 1px; 
+  	border-color: #d7d8cb; 
+}
+
+h3{
+	color:#ce105c;
+	font-size: 1em;
+}
+
+header h1{
+	font-family: 'Anton', cursive;
+	font-size: 4em;
+	color: #414239;
+}
+div h1{
+	font-family: 'Lobster', cursive;
+	font-size: 2.5em;
+	color:   #9E0947;
+}
+
+img{
+	width: 300px;
+	height: 250px;
+	float: left;
+}
+
+img: hover{
+    opacity: 0.8;
+}
+
+article{
+	float: left;
+	margin:5px;
+	width: 25%;
+	 padding: .5em;
+  overflow: hidden;
+}
+section{
+	float: left;
+	margin-left: 40px;
+}
+ ul{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+video{
+	margin-left: 100px;
+	visibility: hidden;
+	display: none;
+	visibility: visible;
+	display: block;
+
+}
+
+article p{
+	font-family: "Verdana";
+	text-align: justify;
+}
+
+li{
+	list-style-type: none;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+li[famoso="principal"] {
+	font-weight: bold;
+}
+
+li[famoso="secundario"] {
+	font-weight: normal;
+	font-style: italic;
+}
