@@ -1,0 +1,124 @@
+div {
+  	border: #cbccc1 1pt solid;
+  	margin-bottom: 15px;
+}
+
+div#nombres{
+	background-color: transparent;
+	width: 800px;
+	margin-left: 75px;
+	margin-top: 15px;
+	height: 200px;
+	padding: 5px;
+}
+
+div#nombres h2{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#nombres section hgroup{
+	position: relative;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+
+#estudios section hgroup{
+	position: relative;
+	margin-left: 0px;
+	left:10px;
+}
+
+#nombres section{
+	 float: left;
+  	 width: 75%;
+  	 margin-top: 1%;
+  	 height: 180px;
+}
+
+h3{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-weight: normal;
+}
+h2{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: bold;	
+}
+#datos_personales h2{
+	margin-top: 10px;
+	text-align: center;
+}
+
+div#datos_personales{
+	background-color: transparent;
+	width: 800px;
+	margin-left: 75px;
+	margin-top: 15px;
+	height: 120px;
+	padding: 5px;
+}
+
+
+div#estudios{
+	background-color: transparent;
+	width: 800px;
+	margin-left: 75px;
+	margin-top: 15px;
+	height: 400px;
+	padding: 5px;
+}
+
+div#estudios 
+
+.institucion{
+	font-weight: bold;
+}
+.institucion +h3{
+	font-style: italic;
+}
+
+.habilidades{
+	background-color: transparent;
+	width: 800px;
+	margin-left: 75px;
+	margin-top: 15px;
+	height: 70px;
+	padding: 5px;
+}
+.habilidades ul{
+
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+
+.habilidades li{
+	border: blue 1pt solid;
+	list-style-type: none;
+    display: inline;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: -5px 12px 17px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: -5px 12px 17px -5px rgba(0,0,0,0.75);
+	box-shadow: -5px 12px 17px -5px rgba(0,0,0,0.75);
+}
+
+
+  img{
+  	position: relative;
+	width: 135px;
+	margin: 5px;
+
+}
+
+ aside{
+ 
+  border: #cbccc1 1pt solid;	
+  float: left;
+  width: 150px;
+  margin: 0px;
+}
