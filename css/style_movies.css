@@ -1,14 +1,29 @@
-div{
-	height: 402px;
+.contenedor1{
+	float: left;
+	width: auto;
+	height: 300px;
 	margin: 30px;
-	border-bottom-style:dotted;
   	border-width: 1px; 
   	border-color: #d7d8cb; 
+  	border-bottom-style:dashed; 
+}
+ 
+ [class*=peli] h1{
+ 	margin: 0px;
+ 	margin-top: 5px;
+ 	margin-left: 20px;
+ }
+
+[class*="pic"]{
+	float: left;
+	width: 200px;
+	height: 150px;
 }
 
 h3{
 	color:#ce105c;
 	font-size: 1em;
+	margin: 0px;
 }
 
 header h1{
@@ -20,29 +35,27 @@ div h1{
 	font-family: 'Lobster', cursive;
 	font-size: 2.5em;
 	color:   #9E0947;
+	margin: 10px;
 }
 
 img{
-	width: 300px;
-	height: 250px;
-	float: left;
+	max-width: 100%;
+	height: auto;
 }
 
-img: hover{
+img :hover{
     opacity: 0.8;
 }
 
 article{
 	float: left;
-	margin:5px;
-	width: 25%;
-	 padding: .5em;
-  overflow: hidden;
+	margin:0px;
+	width: 350px;
+	padding:.5em;
+	padding-top: 0em;
+  	
 }
-section{
-	float: left;
-	margin-left: 40px;
-}
+
  ul{
    padding-right: 0px;
    padding-left: 0px;
@@ -50,31 +63,98 @@ section{
    padding-top: 0px;
    margin: 0px;
 }
-video{
-	margin-left: 100px;
-	visibility: hidden;
-	display: none;
-	visibility: visible;
-	display: block;
-
-}
 
 article p{
 	font-family: "Verdana";
 	text-align: justify;
+	font-size: 0.8em;
 }
 
 li{
 	list-style-type: none;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 li[famoso="principal"] {
 	font-weight: bold;
+	font-size: 0.8em;
 }
 
 li[famoso="secundario"] {
 	font-weight: normal;
 	font-style: italic;
+	font-size: 0.8em;
+}
+
+section{
+	float: left;
+}
+
+video{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin-top: 25px; 
+	margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	body{
+		background-color: lightblue;
+	}
+
+	video{
+		display: none;
+	}
+	article{
+		display: none;
+	}
+
+	section{
+		clear: both;
+	width: 200px;
+	height: auto;
+}
+
+ul li{
+	margin-left: 5px;
+	float: left;
+}
+
+.contenedor1{
+	float: left;
+	width: auto;
+	height: 320px;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	margin-left: 50px;
+  	border-width: 1px; 
+  	border-color: #d7d8cb; 
+  	border-bottom: 2px solid black; 
+}
+h1{
+	text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 1000px){
+	body{
+		background-color: lightblue;
+	}
+
+.contenedor1{
+	float: left;
+	width: auto;
+	height: 380px;
+	margin-bottom: 35px;
+	margin-top: 35px;
+	margin-left: 50px;
+  	border-width: 1px; 
+  	border-color: #d7d8cb; 
+  	border-bottom: 2px solid black; 
+}
 }

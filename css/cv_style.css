@@ -1,9 +1,17 @@
 body{
-	margin-left: 200px;
+	margin-left: 20px;
+}
+
+.contenedor-principal{
+	width: auto;
+	height: auto;
+	margin-left: 20px;
+
 }
 
 header h1{
 	text-align: center;
+
 }
 
 div {
@@ -12,40 +20,68 @@ div {
 }
 
 div#nombres{
+	position: relative;
+	font-size: 0.8em;
 	background-color: transparent;
-	width: 800px;
-	margin-left: 75px;
+	width: auto;
+	margin-right: 200px;
+	margin-left: 50px;
 	margin-top: 15px;
-	height: 200px;
+	height: 220px;
 	padding: 5px;
 }
 
-div#nombres h2{
+div#nombres h1{
 	margin-bottom: 5px;
 	margin-top: 5px;
+	margin-left: 10px;
+	border:transparent;
 }
-#nombres section hgroup{
-	position: relative;
+.datos{
+	border:transparent;
+	width: auto;
+	height: auto;
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.datos h3{
+	font-size: 1.8em;
+}
+
+.datos_personales h2{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.datos_personales{
+	background-color: transparent;
+	width: auto;
+	margin-right: 200px;
+	margin-left: 50px;
+	margin-top: 15px;
+	height: auto;
+	padding: 5px;
+}
+
+/*Seccion Universidad*/
+
+.estudios section {
+	display: inline-block;
 	margin-left: 10px;
 	margin-top: 0px;
 }
 
-#estudios section hgroup{
-	position: relative;
-	margin-left: 0px;
-	left:10px;
-}
-
 #nombres section{
 	 float: left;
-  	 width: 75%;
+  	 width: auto;
   	 margin-top: 1%;
   	 height: 180px;
 }
 
 h3{
 	margin-bottom: 8px;
-	margin-top: 8px;
+	margin-top: 0px;
 	font-weight: normal;
 }
 h2{
@@ -53,31 +89,22 @@ h2{
 	margin-bottom: 8px;
 	font-weight: bold;	
 }
-#datos_personales h2{
-	margin-top: 10px;
-	text-align: center;
-}
 
-div#datos_personales{
+.colegio{
+	border: transparent;
+}
+.universidad{
+	border: transparent;
+}
+.estudios{
 	background-color: transparent;
-	width: 800px;
-	margin-left: 75px;
+	width: auto;
+	margin-left: 50px;
+	margin-right: 200px;
 	margin-top: 15px;
-	height: 120px;
+	height: auto;
 	padding: 5px;
 }
-
-
-div#estudios{
-	background-color: transparent;
-	width: 800px;
-	margin-left: 75px;
-	margin-top: 15px;
-	height: 400px;
-	padding: 5px;
-}
-
-div#estudios 
 
 .institucion{
 	font-weight: bold;
@@ -88,27 +115,51 @@ div#estudios
 
 .habilidades{
 	background-color: transparent;
-	width: 800px;
-	margin-left: 75px;
+	width: auto;
+	margin-right: 10px;
 	margin-top: 15px;
-	height: 70px;
+	height: auto;
 	padding: 5px;
+	margin-left: 50px;
+	margin-right: 200px;
 }
 .habilidades ul{
 
-   padding-right: 0px;
-   padding-left: 0px;
-   padding-bottom: 0px;
-   padding-top: 0px;
+   padding-right: 5px;
+   padding-left: 5px;
+   padding-bottom: 10px;
+   padding-top: 5px;
    margin: 0px;
 }
 
+.habilidades div{
+	display: inline-block;
+	border-radius: 50px 50px 50px 50px;
+	}
+
+	#h1{
+		margin: 0px;
+		width: auto;
+		height: auto;
+		width: 30px;
+		background-color: blue;
+	}
+	#h1 h3{
+		margin: 0px;
+		padding-left: 5px;
+		padding-top: 5px;
+	}
+
 .habilidades li{
+	width: 40px;
+	background-color: #748280;
 	border: blue 1pt solid;
 	list-style-type: none;
     display: inline;
-    padding: 4px;
-    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    padding-right: 20px;
+    margin-left: 2px;
     border-radius: 15px;
     -webkit-box-shadow: -5px 12px 17px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: -5px 12px 17px -5px rgba(0,0,0,0.75);
@@ -129,4 +180,149 @@ div#estudios
   float: left;
   width: 150px;
   margin: 0px;
+}
+
+
+@media only screen and (max-width: 700px){
+	body{
+		background-color: white;
+	}
+	div#nombres{
+	border:transparent;
+	border-radius: 5px 5px 5px 5px;
+	width: 300px;
+	margin-left: 8px;
+	margin-top: 15px;
+	height: 300px;
+	padding: 5px;
+	box-shadow: 5px;
+}
+
+#nombres aside{
+	background-color: white;
+	width: 180px;
+	position: absolute;
+	border-radius: 10px 10px 10px 10px;
+	border: 2px solid black;
+	margin-top: 5px;
+	margin-left: 50px;
+	z-index: -2;
+}
+
+#nombres img{
+	border-radius: 70px 70px 70px 70px;
+	margin-left: 20px;
+}
+
+#nombres h1{
+	position: absolute;
+	width: 180px;
+	color: black;
+	font-size: 1em;
+	top:120px;
+	left: 50px;
+	border-radius: 5px 5px 5px 5px;
+	border: 1px solid white;
+}
+
+.datos{
+	background-color: lightblue;
+	margin-top: 80px;
+	position: relative;
+	border-radius: 15px 15px 15px 15px;
+	border: 2px solid black;
+	z-index: -3;
+	width: 285px;
+	padding-top: 80px;
+}
+
+.datos h3{
+	text-align: center;
+}
+
+.datos_personales{
+	width: 271px;
+	margin-left: 20px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: lightblue;
+	border: 2px solid black; 
+	padding-left: 10px;
+}
+.datos_personales h2{
+	display: none;
+}
+.datos_personales h3{
+	text-align: center;
+}
+
+.estudios{
+	background-color: lightblue;
+	border-radius: 15px 15px 15px 15px;
+	margin-left: 21px;
+	border: 2px solid black;
+	width: 285px;
+	height: 370px;
+}
+
+.estudios h2{
+	text-align: center;
+}
+
+
+img{
+	max-width: 100%;
+	padding:0px;
+}
+
+.colegio aside{
+	margin-left: 20px;
+	border: transparent;
+	width: 80px;
+	margin-right: 5px;
+}
+
+.colegio{
+	float: left;
+	width: 130px;
+	margin: 5px;
+	border: 2px solid black;
+}
+.universidad{
+	float: left;
+	width: 120px;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+.estudios hr{
+	display: none;
+}
+
+.universidad aside{
+	margin-left: 10px;
+	border: transparent;
+	width: 80px;
+	margin-right: 5px;
+}
+
+.estudios h3{
+	font-size: 0.7em;
+}
+
+.habilidades{
+	border: 2px solid black;
+	width: 295px;
+	margin-left: 20px;
+	border-radius: 15px 15px 15px 15px;
+	background-color: lightblue;
+}
+.habilidades h2{
+	text-align: center;
+}
+
+.habilidades li{
+	margin: 10px;
+	margin-top: 5px;
+}
+
 }

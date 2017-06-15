@@ -1,0 +1,194 @@
+
+{
+    box-sizing: border-box;
+}
+
+#logo{
+width: 500px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+#titulo-sitio{
+	font-size: 4em;
+	color: #d39a0a;
+	text-shadow: 5px 5px 5px #bc8609;  
+}
+audio{
+    margin-top: 10px;
+}
+ img{
+	max-width: 100%;	
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.resumen img:hover{
+	opacity: 0.7;
+}
+
+[class*="col-"] {
+    float:left;
+    padding: 5px;
+    border: 1px solid ;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:250px;
+    height:470px;
+}
+
+[class*="comida"]{
+    float:left;
+    margin-right: 45px;
+    border-bottom:1px dashed black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:auto;
+    height:auto;
+}
+
+[class*="container"]{
+	margin-top: 10px;
+}
+
+[class*= "pic"] {
+    clear: left;
+    float: left; 
+    border-radius: 20px;
+    width:250px;
+    height:auto; 
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+[class*= "art"] {
+	float: left;
+    padding-left: 0px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width:auto;
+    height:auto; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+
+#parrafo{
+    margin: 0px;
+    padding: 5px;
+    text-align: justify;
+    height: auto;
+
+}
+
+h2{
+	font-variant: small-caps;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+a:link{
+	color:  #db990a ;
+}
+
+a:visited{
+	color: #7c652e;
+
+}
+
+a:hover{
+	color: #edc163;
+	text-decoration: none;  
+}
+
+ .resumen > hr+h4  {
+ 	color: #d69f2a;
+ }
+
+ .resumen p{
+ 	margin-top: 1px;
+ 	padding: 2px;
+ }
+
+ .resumen h4+h4{
+ 	margin-bottom: 2px;
+ }
+
+ .titulo2{
+    margin-left: 260px;
+ }
+
+/*Para telefono*/
+ @media only screen and (max-width: 500px){
+    body{
+        background-color: lightblue;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+    [class*='col-']{
+        width:80%; 
+        padding: 5px;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        width:400px;
+        height:auto;
+    }
+   
+    [class*="comida"]{
+    float:left;
+    margin-right: 0px;
+    border-bottom:1px dashed black;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    width:200px;
+    height:auto;
+}
+
+
+    .titulo2{
+        margin-left: 20px;
+    }
+    #titulo-sitio{
+    text-align: center;
+    font-size: 3em;
+    color: #d39a0a;
+    text-shadow: 2px 2px 3px #bc8609;  
+    }
+
+    [class*= "pic"] {
+    clear: left;
+    float: left; 
+    border-radius: 20px;
+    width:150px;
+    height:auto; 
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+    .categoria{
+        display: none;
+    }
+
+     #parrafo{
+        display: none;
+     }
+     audio{
+        clear: both;
+        width: 170px;
+        margin-left: 5px;
+     }
+.contenedor2 h1{
+    font-size: 1.3em;
+}
+.contenedor2 hr{
+    width: 170px;
+}
+}
